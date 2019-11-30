@@ -24,3 +24,5 @@ class SearchText(unittest.TestCase):
     def tearDown(self):
         # close the browser window
         self.driver.quit()
+
+        
