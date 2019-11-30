@@ -19,7 +19,7 @@ class SearchText(unittest.TestCase):
         # validate title is not 'مسلسلات رمضان 2018'
         self.driver.find_element_by_xpath('/html/body/div[3]/div[1]/ul/li[8]/a').click()
         h1 = self.driver.find_element_by_xpath('//*[@id="left_content"]/div[2]/div[2]/h1')
-        self.assertNotEqual(h1.text, 'مسلسلات رمضان 2018')
+        self.assertNotEqual(h1.text, 'مسلسلات ر5مضان 2018')
 
     def tearDown(self):
         # close the browser window
